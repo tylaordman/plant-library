@@ -1,12 +1,6 @@
 import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import CreateArea from "./components/CreateArea";
+import ReactDOM from "react-dom";
+import App from "./App";
 
-function App() {
-  return (
- <App />
-  );
-}
 
-export default App;
+ReactDOM.render(<App />, document.querySelector("root"));
